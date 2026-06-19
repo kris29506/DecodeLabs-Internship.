@@ -1,0 +1,7 @@
+lst=[]
+userchoice=input("do you wish to add or view?")
+if userchoice=="view":
+    print(lst)
+elif userchoice=="add":
+    task=input("what do you wish to add?")
+    lst.append(task)
