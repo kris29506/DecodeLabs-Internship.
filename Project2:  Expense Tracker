@@ -1,0 +1,6 @@
+total=0
+command=int(input("Enter your expenses. Enter 0 to stop calculating"))
+while command!=0:
+    total+=command
+    command=int(input("Enter your expenses. Enter 0 to stop calculating"))
+print("total expenses this month are:",total)
